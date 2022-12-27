@@ -106,6 +106,7 @@ PR's welcome for all edits or new projects.
 
 * [jobd](https://github.com/wkharold/jobd) - Cron as a file system
 * [ghfs](https://github.com/sirnewton01/ghfs) - Represent GitHub as a file system
+* [chessfs](https://git.disroot.org/kitzman/chessfs) - Chess as a file system
 
 ### Plan9
 
