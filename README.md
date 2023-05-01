@@ -66,6 +66,7 @@ PR's welcome for all edits or new projects.
 
 * [styx](https://github.com/droyo/styx) - Droyo's library focusing on 9p2000 servers
 * [go-p9p](https://github.com/docker/go-p9p) - Docker's performant 9p2000 library
+  - [improved, updated fork](https://github.com/frobnitzem/go-p9p)
 * [go9p](https://github.com/knusbaum/go9p) - 9P2000 implementation in Go
 * [ninep](https://github.com/lionkov/ninep) - Package for implementing 9p2000 clients and servers
 
@@ -132,6 +133,7 @@ TODO - more from intro(4)
 * [simplefs](https://bitbucket.org/henesy/simplefs) - Demonstrative fs that's a reduction of the framework shown in semfs by Nemo
 * [bankfs](https://bitbucket.org/henesy/bankfs) - Demonstrative fs which features gross abuse of the [9pfile(2)](http://man.cat-v.org/9front/2/9pfile) library
 * [ramfs (lib9p)](http://code.9front.org/hg/plan9front/raw-file/973f85a881d0/sys/src/lib9p/ramfs.c) - Not to be confused with ramfs(4)
+* [sleepfs](https://github.com/frobnitzem/go-p9p/tree/main/sleepfs) a filesystem with tunable file read/write times
 
 ### Windows
 
@@ -146,6 +148,10 @@ TODO - more from intro(4)
 * [9mount](http://sqweek.net/hg/9mount/) - Mount 9p filesystems (no FUSE)
 * [9pfuse](https://github.com/aperezdc/9pfuse) - Mount 9p file systems through FUSE
 * [9p(1)](https://raw.githubusercontent.com/9fans/plan9port/master/src/cmd/9p.c) - Plan9Port's 9p(1) command for interacting with 9p file systems 
+
+### Go
+
+* [9pr](https://github.com/frobnitzem/go-p9p/tree/main/cmd/9pr) - A REPL for talking to 9P2000 servers.
 
 ### Python
 
